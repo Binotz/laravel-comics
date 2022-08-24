@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+
+    .header-container {
+        width: 100%;
+        background-color: $primary-color;
+    }
+    .header-top {
+        width: 60%;
+        margin: 0 auto;
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        padding: 5px 0;
+        span {
+            font-size: 10px;
+            font-weight: bold;
+            margin-left: 3rem;
+        }
+    }
+    .header-bottom {
+        width: 100%;
+        margin: 0 auto;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        nav {
+            height: 100%;
+        }
+        ul {
+            display: flex;
+            gap: 1rem;
+            a {
+                text-transform: uppercase;
+                color: black;
+            }
+        }
+    }
+}

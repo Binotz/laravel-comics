@@ -11,6 +11,7 @@
     @include('partials.header')
     @include('partials.jumbotron')
     @yield('body-section')
+    @include('partials.footer')
 
 </body>
 </html>

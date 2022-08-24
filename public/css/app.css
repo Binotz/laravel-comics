@@ -130,3 +130,21 @@ header .header-bottom ul a {
 .home-cta .cta-item img {
   width: 50px;
 }
+
+footer {
+  width: 100%;
+  background-image: url("../images/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer .footer-container {
+  width: 60%;
+  margin: 0 auto;
+}
+footer .footer-container .footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: hidden;
+  height: 500px;
+}

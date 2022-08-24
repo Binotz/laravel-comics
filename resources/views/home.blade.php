@@ -6,7 +6,5 @@
     @include("components.current-series")
     {{-- CTA section --}}
     @include("components.home-cta")
-
-
-
+    
 @endsection

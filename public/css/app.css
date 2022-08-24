@@ -107,3 +107,26 @@ header .header-bottom ul a {
   color: white;
   font-weight: bold;
 }
+
+.home-cta {
+  background-color: #0282f9;
+  color: white;
+}
+.home-cta .cta-container {
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+.home-cta .cta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.home-cta .cta-item img {
+  width: 50px;
+}

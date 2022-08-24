@@ -1,0 +1,22 @@
+.home-cta {
+    background-color: $primary-color;
+    color: white;
+    .cta-container {
+        width: 55%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 0;
+    }
+    .cta-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        font-weight: bold;
+        img {
+            width: 50px;
+        }
+    }
+}

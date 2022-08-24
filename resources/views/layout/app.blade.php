@@ -10,5 +10,7 @@
 <body>
     @include('partials.header')
     @include('partials.jumbotron')
+    @yield('body-section')
+
 </body>
 </html>

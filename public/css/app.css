@@ -58,3 +58,52 @@ header .header-bottom ul a {
   height: 420px;
   overflow-y: hidden;
 }
+
+.current-series {
+  background-color: #1c1c1c;
+  color: white;
+  padding-top: 3rem;
+  position: relative;
+}
+.current-series .tag {
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1rem;
+  background-color: #0282f9;
+  position: absolute;
+  top: -3%;
+  left: 15%;
+}
+.current-series .series-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.current-series .series-container .serie {
+  display: flex;
+  flex-direction: column;
+  width: calc(16.6666666667% - 2rem);
+}
+.current-series .series-container .serie img {
+  margin-bottom: 1rem;
+}
+.current-series .series-container .serie span {
+  text-transform: uppercase;
+}
+.current-series .load-more {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+.current-series .load-more span {
+  text-transform: uppercase;
+  padding: 1rem 5rem;
+  background-color: #0282f9;
+  color: white;
+  font-weight: bold;
+}

@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    //importo i dati presenti in config/comics.php
+    $series = config('comics');
+    $data = [
+        'series' => $series,
+    ];
+    return view('home', $data);
+
 })->name('home');

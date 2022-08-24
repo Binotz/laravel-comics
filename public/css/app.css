@@ -52,3 +52,9 @@ header .header-bottom ul a {
   text-transform: uppercase;
   color: black;
 }
+
+.jumbotron {
+  width: 100%;
+  height: 420px;
+  overflow-y: hidden;
+}

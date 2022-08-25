@@ -22,3 +22,17 @@ Route::get('/', function () {
     return view('home', $data);
 
 })->name('home');
+
+Route::get('/comic/{id}', function($id){
+    $series = config('comics');
+    $comic = [];
+    foreach($series as $serie){
+        if($serie['id'] == $id){
+            $comic[] = $serie;
+        }
+    }
+    $data = [
+        'comic' => $comic, 
+    ];
+    return view('comic', $data);
+})->name('comic');

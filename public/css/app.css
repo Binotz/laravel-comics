@@ -111,6 +111,115 @@ header .header-bottom ul a {
   font-weight: bold;
 }
 
+.comic-container {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  gap: 2rem;
+}
+
+.blue-banner {
+  height: 100px;
+  background-color: #0282f9;
+}
+.blue-banner img {
+  position: absolute;
+  left: 0;
+  bottom: -80px;
+}
+
+.comic-description {
+  padding: 3rem 0;
+}
+.comic-description .comic-description-text > * {
+  margin-bottom: 2rem;
+}
+.comic-description .comic-description-text h1 {
+  text-transform: uppercase;
+}
+.comic-description .comic-description-text .comic-price-available {
+  display: flex;
+  justify-content: space-between;
+  background-color: #55ba59;
+}
+.comic-description .comic-description-text .comic-price-available .comic-price {
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid black;
+  padding: 1.2rem;
+  flex-grow: 1;
+}
+.comic-description .comic-description-text .comic-price-available span {
+  color: #b4f27c;
+}
+.comic-description .comic-description-text .comic-price-available span .price {
+  color: white;
+}
+.comic-description .comic-description-text .comic-price-available .comic-dropdown-check-avail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem;
+}
+.comic-description .comic-description-text .comic-price-available .comic-dropdown-check-avail a {
+  color: white;
+  font-weight: bold;
+}
+.comic-description .comic-description-text p {
+  line-height: 1.5rem;
+}
+.comic-description .comic-ads {
+  text-align: end;
+  text-transform: uppercase;
+}
+
+.comic-details {
+  background-color: #f6f6f6;
+  border-top: 0.5px solid rgba(128, 128, 128, 0.2);
+  padding: 1rem 0;
+}
+.comic-details .comic-talent,
+.comic-details .comic-specs {
+  width: 50%;
+}
+.comic-details .comic-talent h3,
+.comic-details .comic-specs h3 {
+  font-weight: 400;
+}
+.comic-details .comic-talent > *,
+.comic-details .comic-specs > * {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+.comic-details .comic-talent > div,
+.comic-details .comic-specs > div {
+  display: flex;
+  justify-content: space-between;
+}
+.comic-details .comic-talent > div h3,
+.comic-details .comic-specs > div h3 {
+  width: 30%;
+}
+.comic-details .comic-talent > div div,
+.comic-details .comic-specs > div div {
+  width: 70%;
+}
+.comic-details .comic-talent > div div .artist,
+.comic-details .comic-talent > div div .writer,
+.comic-details .comic-specs > div div .artist,
+.comic-details .comic-specs > div div .writer {
+  color: #0282f9;
+}
+.comic-details .comic-talent .spec-series,
+.comic-details .comic-specs .spec-series {
+  text-transform: uppercase;
+  color: #0282f9;
+}
+
 .home-cta {
   background-color: #0282f9;
   color: white;

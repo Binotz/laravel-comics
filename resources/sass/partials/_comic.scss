@@ -1,0 +1,98 @@
+.comic-container {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.flex {
+    display: flex;
+    gap: 2rem;
+}
+.blue-banner {
+    height: 100px;
+    background-color: $primary-color;
+    img {
+        position: absolute;
+        left: 0;
+        bottom: -80px;
+    }
+}
+.comic-description {
+    padding: 3rem 0;
+    .comic-description-text {
+        > * {
+            margin-bottom: 2rem;
+        }
+        h1 {
+            text-transform: uppercase;
+        }
+        .comic-price-available {
+            display: flex;
+            justify-content: space-between;
+            background-color: #55ba59;
+            .comic-price {
+                display: flex;
+                justify-content: space-between;
+                border-right: 1px solid black;
+                padding: 1.2rem;
+                flex-grow: 1;
+            }
+            span {
+                color: #b4f27c;
+                .price {
+                    color: white;
+                }
+            }
+            .comic-dropdown-check-avail {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1.2rem;
+                a {
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+        }
+        p {
+            line-height: 1.5rem;
+        }
+    }
+    .comic-ads {
+        text-align: end;
+        text-transform: uppercase;
+    }
+}
+.comic-details {
+    background-color: #f6f6f6;
+    border-top: 0.5px solid rgba(128, 128, 128, 0.2);
+    padding: 1rem 0;
+    .comic-talent,
+    .comic-specs {
+        width: 50%;
+        h3 {
+            font-weight: 400;
+        }
+        > * {
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+        }
+        > div {
+            display: flex;
+            justify-content: space-between;
+            h3 {
+                width: 30%;
+            }
+            div {
+                width: 70%;
+                .artist,
+                .writer {
+                    color: $primary-color;
+                }
+            }
+        }
+        .spec-series {
+            text-transform: uppercase;
+            color: $primary-color;
+        }
+    }
+}

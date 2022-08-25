@@ -3,15 +3,77 @@ footer {
     background-image: url("../images/footer-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    h2 {
+        color: white;
+        text-transform: uppercase;
+    }
+    ul {
+        padding: 1rem 0;
+        font-size: 0.8rem;
+        li {
+            margin-bottom: 10px;
+            a {
+                text-transform: capitalize;
+                color: gray;
+            }
+        }
+    }
     .footer-container {
         width: 60%;
         margin: 0 auto;
-        .footer-top {
+    }
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow-y: hidden;
+        width: 100%;
+        height: 500px;
+        .footer-menu {
+            display: flex;
+            flex-wrap: wrap;
+            p {
+                color: gray;
+                a {
+                    color: $primary-color;
+                }
+            }
+            & > * {
+                margin-right: 2rem;
+            }
+        }
+    }
+    .footer-bottom {
+        background-color: $gray;
+        .footer-bottom-container {
+            width: 60%;
+            margin: 0 auto;
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            overflow-y: hidden;
-            height: 500px;
+            .sign-up-now {
+                color: white;
+                padding: 3rem 0;
+                span {
+                    text-transform: uppercase;
+                    border: 3px solid $primary-color;
+                    padding: 1rem;
+                }
+            }
+            .icons {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                span {
+                    color: $primary-color;
+                    text-transform: uppercase;
+                    white-space: nowrap;
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                }
+                img {
+                    width: 100%;
+                }
+            }
         }
     }
 }

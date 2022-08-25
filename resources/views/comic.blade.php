@@ -69,7 +69,7 @@
                 <div class="div-spec-on-sale">
                     <h3>On Sale Date: </h3>
                     <div>
-                        <span class="spec-on-sale">{{$comic[0]['sale_date']}}</span>
+                        <span class="spec-on-sale">{{ date_format(date_create($comic[0]['sale_date']), "M d Y")}}</span>
                     </div>
                 </div>
             </div>

@@ -75,4 +75,24 @@
             </div>
         </div>
     </div>
+    <div class="comic-details-cta">
+        <div class="comic-container flex">
+            <div class="box-cta flex">
+                <span>digital comics</span>
+                <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="digital comics">
+            </div>
+            <div class="box-cta flex">
+                <span>shop dc</span>
+                <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="digital comics">
+            </div>
+            <div class="box-cta flex">
+                <span>comic shop locator</span>
+                <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="digital comics">
+            </div>
+            <div class="box-cta flex">
+                <span>subscriptions</span>
+                <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="digital comics">
+            </div>
+        </div>
+    </div>
 @endsection

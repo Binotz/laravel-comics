@@ -145,6 +145,7 @@ header .header-bottom ul a {
   display: flex;
   justify-content: space-between;
   background-color: #55ba59;
+  font-weight: bold;
 }
 .comic-description .comic-description-text .comic-price-available .comic-price {
   display: flex;
@@ -179,8 +180,10 @@ header .header-bottom ul a {
 
 .comic-details {
   background-color: #f6f6f6;
-  border-top: 0.5px solid rgba(128, 128, 128, 0.2);
+  border-top: 1px solid rgba(128, 128, 128, 0.2);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
   padding: 1rem 0;
+  padding-bottom: 5rem;
 }
 .comic-details .comic-talent,
 .comic-details .comic-specs {
@@ -218,6 +221,30 @@ header .header-bottom ul a {
 .comic-details .comic-specs .spec-series {
   text-transform: uppercase;
   color: #0282f9;
+}
+
+.comic-details-cta {
+  background-color: #f6f6f6;
+}
+.comic-details-cta .flex {
+  gap: 0;
+}
+.comic-details-cta .box-cta {
+  width: 25%;
+  padding: 1rem;
+  color: rgb(128, 128, 128);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+.comic-details-cta .box-cta:last-child {
+  border-right: 1px solid rgba(128, 128, 128, 0.2);
+}
+.comic-details-cta .box-cta.flex {
+  justify-content: space-between;
+}
+.comic-details-cta .box-cta img {
+  width: 10%;
 }
 
 .home-cta {

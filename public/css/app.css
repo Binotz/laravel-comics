@@ -68,6 +68,10 @@ header .header-bottom ul a {
   padding-top: 3rem;
   position: relative;
 }
+.current-series a {
+  color: white;
+  text-decoration: none;
+}
 .current-series .tag {
   color: white;
   font-weight: 700;

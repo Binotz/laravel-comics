@@ -5,8 +5,12 @@
         <div class="series-container">
             @foreach ($series as $comic)
                 <div class="serie">
-                    <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
-                    <span>{{$comic['series']}}</span>
+                    <a href="{{route('comic',
+                            ['id' => $comic['id']]
+                        )}}">
+                        <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+                        <span>{{$comic['series']}}</span>
+                    </a>
                 </div>
             @endforeach
         </div>
